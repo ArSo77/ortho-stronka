@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f6f2ea"/>
+      <stop offset="1" stop-color="#dce7df"/>
+    </linearGradient>
+    <linearGradient id="shape" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#31604f"/>
+      <stop offset="1" stop-color="#173e32"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#background)"/>
+  <circle cx="1090" cy="80" r="235" fill="#f0b3a3" opacity=".55"/>
+  <circle cx="1018" cy="487" r="294" fill="url(#shape)"/>
+  <circle cx="1018" cy="487" r="218" fill="none" stroke="#fffdf9" stroke-opacity=".18" stroke-width="2"/>
+  <path d="M878 528c64-151 215-224 340-151M832 430c113 15 207 109 234 237" fill="none" stroke="#f0b3a3" stroke-linecap="round" stroke-width="22"/>
+  <g transform="translate(88 78)">
+    <circle cx="42" cy="42" r="38" fill="none" stroke="#173e32" stroke-width="5"/>
+    <path d="M24 50c8-20 28-30 44-20M20 39c14 2 26 14 30 34" fill="none" stroke="#db765f" stroke-linecap="round" stroke-width="5"/>
+    <text x="104" y="50" fill="#db765f" font-family="Arial, Helvetica, sans-serif" font-size="50" font-weight="700" letter-spacing="3">IZO</text>
+    <text x="210" y="31" fill="#416056" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700" letter-spacing="2">- INDYWIDUALNE ZAOPATRZENIE</text>
+    <text x="210" y="53" fill="#416056" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700" letter-spacing="2">ORTOPEDYCZNE</text>
+  </g>
+  <text x="88" y="290" fill="#19392f" font-family="Georgia, Times New Roman, serif" font-size="72">Więcej swobody</text>
+  <text x="88" y="372" fill="#19392f" font-family="Georgia, Times New Roman, serif" font-size="72">w każdym <tspan fill="#db765f" font-style="italic">ruchu.</tspan></text>
+  <text x="91" y="455" fill="#416056" font-family="Arial, Helvetica, sans-serif" font-size="24">Protezy, ortezy, gorsety i wkładki</text>
+  <text x="91" y="490" fill="#416056" font-family="Arial, Helvetica, sans-serif" font-size="24">dopasowane do konkretnego człowieka.</text>
+</svg>
