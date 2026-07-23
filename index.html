@@ -59,11 +59,14 @@
         "image": "https://example.com/assets/og-cover.jpg",
         "address": {
           "@type": "PostalAddress",
-          "streetAddress": "ul. Piękna 7",
-          "addressLocality": "Łódź",
+          "streetAddress": "ul. Szeroka 36",
+          "postalCode": "95-030",
+          "addressLocality": "Starowa Góra",
           "addressCountry": "PL"
         },
-        "hasMap": "https://www.google.com/maps/search/?api=1&query=Pi%C4%99kna+7%2C+%C5%81%C3%B3d%C5%BA",
+        "telephone": "+48608614711",
+        "openingHours": "Mo-Fr 10:00-16:00",
+        "hasMap": "https://www.google.com/maps/search/?api=1&query=ul.+Szeroka+36%2C+95-030+Starowa+G%C3%B3ra",
         "knowsAbout": [
           "Protezy kończyn",
           "Ortezy",
@@ -79,18 +82,19 @@
 
     <header class="site-header" data-header>
       <div class="container header-inner">
-        <a class="brand" href="#start" aria-label="IZO-Indywidualne Zaopatrzenie Ortopedyczne — strona główna">
-          <svg class="brand-mark" viewBox="0 0 48 48" aria-hidden="true">
-            <path d="M24 5C13.5 5 5 13.5 5 24s8.5 19 19 19 19-8.5 19-19S34.5 5 24 5Z" />
-            <path d="M15 28c4-10 14-15 22-10M13 22c7 1 13 7 15 14" />
-          </svg>
-          <span>IZO-</span>
-          <small>Indywidualne<br />Zaopatrzenie Ortopedyczne</small>
-        </a>
+        <div class="header-logos">
+          <a class="brand" href="#start" aria-label="IZO-Indywidualne Zaopatrzenie Ortopedyczne — strona główna">
+            <img class="brand-logo" src="assets/logo.png" alt="IZO - Indywidualne Zaopatrzenie Ortopedyczne" />
+          </a>
+          <a class="nfz-link" href="#kody-nfz" aria-label="Przejdź do kodów NFZ">
+            <img class="nfz-logo" src="assets/nfz_logo_A_kolor.jpg" alt="Narodowy Fundusz Zdrowia" />
+          </a>
+        </div>
 
         <nav class="main-nav" id="main-navigation" aria-label="Główna nawigacja" data-nav>
           <ul>
             <li><a href="#o-nas">O nas</a></li>
+            <li><a href="#kadra">Kadra</a></li>
             <li><a href="#leczenie">Oferta</a></li>
             <li><a href="#jak-zaczac">Jak działamy</a></li>
             <li><a href="#faq">FAQ</a></li>
@@ -119,10 +123,9 @@
         <div class="container hero-grid">
           <div class="hero-copy">
             <p class="eyebrow"><span></span> Rozwiązania tworzone dla Ciebie</p>
-            <h1 id="hero-title">Więcej swobody<br />w każdym <em>ruchu.</em></h1>
+            <h1 id="hero-title">Indywidualne rozwiązania<br />dla<em> unikalnych potrzeb.</em></h1>
             <p class="hero-lead">
-              Tworzymy indywidualne zaopatrzenie ortopedyczne, które odpowiada na realne
-              potrzeby i pomaga pewniej wrócić do codziennych aktywności.
+              Tworzymy zaopatrzennie ortopedyczne "szyte na miarę".
             </p>
             <div class="hero-actions">
               <a class="button" href="#kontakt">Umów konsultację <span aria-hidden="true">↗</span></a>
@@ -135,33 +138,8 @@
               <p><strong>Człowiek przede wszystkim</strong><br />uważnie słuchamy, mierzymy i dopasowujemy</p>
             </div>
           </div>
-
           <div class="hero-visual" aria-label="Większa niezależność dzięki indywidualnemu zaopatrzeniu ortopedycznemu">
-            <div class="smile-card">
-              <div class="smile-illustration" aria-hidden="true">
-                <span class="spark spark-one">✦</span>
-                <span class="spark spark-two">✦</span>
-                <svg viewBox="0 0 540 500" role="presentation">
-                  <defs>
-                    <linearGradient id="face" x1="0" x2="1" y1="0" y2="1">
-                      <stop offset="0" stop-color="#ffdfc7" />
-                      <stop offset="1" stop-color="#eebda1" />
-                    </linearGradient>
-                    <linearGradient id="shirt" x1="0" x2="1">
-                      <stop offset="0" stop-color="#c9d8cf" />
-                      <stop offset="1" stop-color="#8cad9d" />
-                    </linearGradient>
-                  </defs>
-                  <path fill="#d2e1d9" d="M42 401c47-109 139-159 235-159s181 47 225 159v99H42Z" />
-                  <path fill="url(#shirt)" d="M82 450c20-118 101-169 195-169s175 51 195 169v50H82Z" />
-                  <ellipse cx="278" cy="201" rx="118" ry="147" fill="url(#face)" />
-                  <path fill="#523d34" d="M166 188c-14-84 32-158 114-158 73 0 127 62 116 143-26-31-42-69-51-105-44 47-105 76-179 86Z" />
-                  <path d="M224 197c12-8 25-8 37 0M301 197c12-8 25-8 37 0" fill="none" stroke="#66504a" stroke-linecap="round" stroke-width="7" />
-                  <path d="M234 248c26 25 58 25 84 0" fill="#fff" stroke="#bc6d6d" stroke-linecap="round" stroke-width="8" />
-                  <circle cx="213" cy="226" r="12" fill="#e9a38f" opacity=".45" />
-                  <circle cx="349" cy="226" r="12" fill="#e9a38f" opacity=".45" />
-                </svg>
-              </div>
+            <img class="smile-card" src="assets/zdje%CC%A8cie%20na%20str%20g%C5%82o%CC%81wna%CC%A8.png" alt="Pacjentka korzystająca z indywidualnego zaopatrzenia ortopedycznego" />
               <p class="floating-note note-top"><span aria-hidden="true">✓</span> Precyzyjne dopasowanie</p>
               <p class="floating-note note-bottom"><span aria-hidden="true">♡</span> Wsparcie także po odbiorze</p>
             </div>
@@ -216,6 +194,31 @@
         </div>
       </section>
 
+      <section class="section team" id="kadra" aria-labelledby="team-title">
+        <div class="container team-grid">
+          <div class="team-photo-wrap">
+            <img src="assets/foto%20profilowe%20na%20strone%CC%A8.png" alt="Bartłomiej Kaczmarek" />
+          </div>
+          <div class="team-copy">
+            <p class="eyebrow"><span></span> Kadra</p>
+            <h2 id="team-title">Bartłomiej<br /><em>Kaczmarek</em></h2>
+            <p class="team-role">Główny ortotyk, fizjoterapeuta.</p>
+            <p>Ponad 20 lat doświadczenia w projektowaniu i tworzeniu indywidualnego zaopatrzenia ortopedycznego.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section nfz-codes" id="kody-nfz" aria-labelledby="nfz-codes-title">
+        <div class="container">
+          <div class="nfz-codes-heading">
+            <p class="eyebrow centered"><span></span> Dofinansowanie <span></span></p>
+            <h2 id="nfz-codes-title">Kody <em>NFZ.</em></h2>
+            <p>Posiadamy umowę z Narodowym Funduszem Zdrowia, co umożliwia naszym pacjentom uzyskanie refundacji NFZ na większość naszych produktów.</p>
+          </div>
+          <img class="nfz-codes-image" src="assets/Kody%20NFZ.png" alt="Tabela kodów NFZ, nazw wyrobów medycznych i wysokości limitów" loading="lazy" />
+        </div>
+      </section>
+
       <section class="section treatments" id="leczenie" aria-labelledby="treatments-title">
         <div class="container">
           <div class="section-topline">
@@ -235,7 +238,8 @@
               <div class="treatment-icon" aria-hidden="true">
                 <svg viewBox="0 0 72 72"><path d="M31 13v16l-8 12v18M41 13v18l7 10-5 18M31 29h10M23 41h25M22 59h11M43 59h10"/><circle cx="36" cy="13" r="5"/></svg>
               </div>
-              <div><h3>Protezy kończyn</h3><p>Indywidualne rozwiązania projektowane z myślą o komforcie, funkcji i codziennej aktywności.</p></div>
+              <div><h3>Ortezy</h3><p>Indywidualne rozwiązania projektowane z myślą o komforcie, funkcji i codziennej aktywności.
+              Ortezy typu DAFO, AFO, GRAFO, KAFO, HKAFO, RGO.</p></div>
               <a href="#kontakt" aria-label="Zapytaj o protezy kończyn">↗</a>
             </article>
             <article class="treatment-card">
@@ -243,7 +247,7 @@
               <div class="treatment-icon" aria-hidden="true">
                 <svg viewBox="0 0 72 72"><path d="M26 12c9 7 14 16 13 26-1 9-7 15-5 22M46 12c-9 7-14 16-13 26 1 9 7 15 5 22M25 25h17M27 45h12"/><path d="M21 22l6 3-5 6M45 42l6 3-6 6"/></svg>
               </div>
-              <div><h3>Ortezy i gorsety</h3><p>Stabilizacja, korekcja i odciążenie dopasowane do budowy ciała oraz zaleceń specjalisty.</p></div>
+              <div><h3>Gorsety</h3><p>Stabilizacja, korekcja i odciążenie dopasowane do budowy ciała oraz zaleceń specjalisty.</p></div>
               <a href="#kontakt" aria-label="Zapytaj o ortezy i gorsety ortopedyczne">↗</a>
             </article>
             <article class="treatment-card">
@@ -251,7 +255,7 @@
               <div class="treatment-icon" aria-hidden="true">
                 <svg viewBox="0 0 72 72"><path d="M41 10c8 5 10 16 7 25-2 8-7 12-7 20 0 5-3 8-8 8H20c-5 0-8-4-6-9 2-6 8-7 12-11 7-6 5-13 5-20 0-6 3-11 10-13Z"/><path d="M20 50c8 2 14 1 21-4M30 26c4 2 9 2 14 0"/></svg>
               </div>
-              <div><h3>Wkładki ortopedyczne</h3><p>Wkładki wykonywane na podstawie badania i pomiaru, wspierające prawidłowe obciążenie stóp.</p></div>
+              <div><h3>Wkładki ortopedyczne</h3><p>Wkładki wspierające prawidłowe obciążenie stóp, korygujące ustawienie, wspomagające propulsję, uzupełniające stopę w przypadku amputacji.</p></div>
               <a href="#kontakt" aria-label="Zapytaj o wkładki ortopedyczne">↗</a>
             </article>
           </div>
@@ -301,7 +305,7 @@
           <div class="accordion">
             <details>
               <summary>Czy każde zaopatrzenie powstaje na miarę?<span aria-hidden="true">+</span></summary>
-              <p>Każde zaopatrzenie jest u nas wykonywane indywidualnie i dopasowane do potrzeb danego pacjenta.</p>
+              <p>Tak, wykonujemy wyłącznie zaopatrzenie indywidualne tworzone po uprzednim pobraniu miary.</p>
             </details>
             <details>
               <summary>Jak wygląda pobranie miary?<span aria-hidden="true">+</span></summary>
@@ -325,7 +329,7 @@
             <p class="eyebrow light"><span></span> Jesteśmy blisko</p>
             <h2 id="contact-title">Zacznijmy od<br /><em>rozmowy.</em></h2>
             <p>Napisz lub zadzwoń. Odpowiemy na pytania i ustalimy, jak możemy Ci pomóc.</p>
-            <a class="button button-light" href="tel:+48123456789">+48 123 456 789</a>
+            <a class="button button-light" href="tel:+48608614711">608 614 711</a>
           </div>
           <address class="contact-details">
             <div>
@@ -333,15 +337,19 @@
               <strong>
                 <a
                   class="map-link"
-                  href="https://www.google.com/maps/search/?api=1&amp;query=Pi%C4%99kna+7%2C+%C5%81%C3%B3d%C5%BA"
+                  href="https://www.google.com/maps/search/?api=1&amp;query=ul.+Szeroka+36%2C+95-030+Starowa+G%C3%B3ra"
                   target="_blank"
                   rel="noopener noreferrer"
-                  aria-label="Otwórz adres ul. Piękna 7 w Łodzi w Google Maps"
-                >ul. Piękna 7<br />Łódź <span aria-hidden="true">↗</span></a>
+                  aria-label="Otwórz adres ul. Szeroka 36 w Starowej Górze w Google Maps"
+                >ul. Szeroka 36<br />95-030 Starowa Góra <span aria-hidden="true">↗</span></a>
               </strong>
             </div>
-            <div><span>Godziny</span><strong>Pon.–Pt. 8:00–20:00<br />Sob. 9:00–14:00</strong></div>
-            <div><span>E-mail</span><strong><a href="mailto:kontakt@example.com">kontakt@example.com</a></strong></div>
+            <div>
+              <span>Godziny</span>
+              <strong>Pn – Pt 10.00 – 16.00</strong>
+              <p class="hours-note">Wychodząc naprzeciw potrzebom naszych pacjentów oferujemy możliwość umówienia wizyty w innym terminie/godzinie. Jesteśmy elastyczni, postaramy się dopasować do Ciebie.</p>
+            </div>
+            <div><span>E-mail</span><strong><a href="mailto:izo@izorto.pl">izo@izorto.pl</a></strong></div>
           </address>
         </div>
       </section>
@@ -355,7 +363,7 @@
           <small>Indywidualne<br />Zaopatrzenie Ortopedyczne</small>
         </a>
         <nav aria-label="Nawigacja w stopce">
-          <a href="#o-nas">O nas</a><a href="#leczenie">Oferta</a><a href="#jak-zaczac">Jak działamy</a><a href="#faq">FAQ</a>
+          <a href="#o-nas">O nas</a><a href="#kadra">Kadra</a><a href="#leczenie">Oferta</a><a href="#jak-zaczac">Jak działamy</a><a href="#faq">FAQ</a>
         </nav>
       </div>
       <div class="container footer-bottom">
